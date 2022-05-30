@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Add to Cart Button Custom Text">
+  <domain name="add-to-cart-custom-text">
+    <project name="Add to Cart Button Custom Text" slug="add-to-cart-custom-text">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/add-to-cart-custom-text.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>
