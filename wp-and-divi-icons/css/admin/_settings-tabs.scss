@@ -1,0 +1,72 @@
+#ds_icon_expansion-settings-tabs {
+  margin           : 0;
+  background-color : $dsMainPurple;
+  overflow         : hidden;
+
+  li {
+    margin      : 0;
+    float       : left;
+    display     : inline-block;
+    font-weight : 600;
+
+    font-size   : 14px;
+
+    @media (max-width : 600px) {
+      float     : none;
+      display   : block;
+      font-size : 13px;
+      }
+
+    a {
+      background-color   : transparent;
+      color              : rgba(255, 255, 255, 0.9);
+      cursor             : pointer;
+      padding            : 13px 16px !important;
+      outline            : none;
+      text-decoration    : none;
+      -webkit-transition : all ease-in 0.3s;
+      transition         : all ease-in 0.3s;
+      box-shadow         : none;
+      display            : block;
+      letter-spacing     : 0.29px;
+
+      &:hover {
+        color            : #FFF;
+        background-color : $dsMediumPurple;
+        }
+      }
+
+    &.ds_icon_expansion-settings-active a {
+      opacity          : 1;
+      background-color : $dsLightPurple;
+      color            : #FFF;
+      }
+
+    &.ds_icon_expansion-settings-disabled a {
+      cursor : default;
+      color  : #7047FF;
+
+      &:hover {
+        color            : #7047FF;
+        background-color : transparent;
+        }
+      }
+    }
+  }
+
+/* Settings tab content */
+#ds_icon_expansion-settings-tabs-content {
+  box-shadow       : $boxShadow;
+  background-color : #FFF;
+  padding          : 28px 20px 34px;
+  min-height       : 300px;
+
+  & > div {
+    display : none;
+    }
+
+  & > .ds_icon_expansion-settings-active {
+    display : block;
+    }
+  }
+

@@ -1,0 +1,75 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-urc-block {
+  background: #f0ecff;
+  border: 0.1rem solid #a698d8;
+  color: #4e38b1;
+  margin: 0 auto;
+  padding: 1rem; }
+
+.wp-block-urc-block-uji-countdown-2020 time {
+  font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 1.2rem; }
+
+.wp-block-ujicount-datetime {
+  color: #732db6; }
+
+.components-datetime {
+  padding: 0; }
+
+.urc-component .spaceInp {
+  width: 55px;
+  display: inline-block; }
+
+.urc-component input[type=number] {
+  text-align: center; }
+
+.urc-component input[type=number]::-webkit-inner-spin-button,
+.urc-component input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+.urc-component-time {
+  margin-bottom: 15px; }
+
+.components-time-field-hours-input {
+  width: 23%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+  margin-bottom: 0 !important; }
+
+.urc-border {
+  border-top: 1px solid #e2e4e7;
+  padding: 10px 0; }
+
+.components-time-field-hours-select {
+  width: 37%;
+  display: inline-block; }
+
+.components-repeat-field-input {
+  width: 23%;
+  display: inline-block;
+  margin-bottom: 0 !important; }
+
+.urc-component i {
+  margin-left: 58px;
+  display: block; }
+
+.urc-time-separator {
+  padding: 0 0.5rem 0 0;
+  display: inline-block; }
+
+.urc-component-time h4,
+.urc-border h4 {
+  margin: 0.8em 0; }

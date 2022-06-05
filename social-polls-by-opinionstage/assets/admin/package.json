@@ -1,0 +1,22 @@
+{
+  "name": "opinionstage-wordpress-plugin-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yes",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "clean-css-cli": "^5.3.0",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass ./src/ --output ../../admin/css/ --output-style compressed | npm run prefix",
+    "prefix": "postcss ../../admin/css/*.css --use=autoprefixer --no-map -d ../../admin/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.2.14"
+  }
+}

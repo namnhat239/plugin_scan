@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="wadi-admin" horiz-adv-x="1000" >
+<font-face font-family="wadi-admin" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="wadi_icon" unicode="&#x31;" d="M0 848v-998h1052z m63-149l829-786h-829z m123-329v-334h352z m63-147l131-124h-131z m371 370h308v-525h63v569l-210 213-224-212v-198h63z m264 63h-216l111 106z" horiz-adv-x="1050" />
+</font>
+</defs>
+</svg>

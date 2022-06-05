@@ -1,0 +1,1 @@
+The development of this plugin has moved to https://github.com/rickard2/utcw/ and new versions are built and pushed to this repository when ready.

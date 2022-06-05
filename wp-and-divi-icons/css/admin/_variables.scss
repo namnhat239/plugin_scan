@@ -1,0 +1,66 @@
+// ------------------------------------------------------------------------------------------- //
+//                            GLOBAL VARIABLES
+// ------------------------------------------------------------------------------------------- //
+
+// Color scheme
+$mainColor         : #FF5D5B;
+$mainHoverColor    : #CC4A49;
+
+// Divi Space Color Palette
+$dsPastelPurple    : #B9B9E5;
+$dsLightPurple     : #6A61E6;
+$dsBrightPurple    : #9068FF;
+$dsMainPurple      : #340F96;
+$dsMediumPurple    : #2F0082;
+$dsDarkPurple      : #260065;
+$subMenuPurple     : #4E00C5;
+
+$neonBlue          : #53C8FD;
+$neonBlueDark      : #429FCA;
+
+$seaGreenLight     : #00C8C1;
+$seaGreen          : #00A99D;
+$seaGreenDark      : #077A70;
+
+// notification colors
+$success           : #3EBB79; // notification color: success
+$warning           : #FC3; // notification color: warning / info
+$danger            : #D64444; // notification color:error
+
+$whiteColor        : #FFF;
+$blackColor        : #000;
+
+// border colors
+$lightBorderColor  : #F3F6F8; // color for light borders
+$middleBorderColor : #E7EAEC; // color for dark borders
+$darkBorderColor   : #DDE2E5; // color for dark borders
+
+$checkboxGrey      : #E7EAEC;
+
+// Font
+$fontGeneral       : "Open Sans", sans-serif; // general font used in project
+$fontHeading       : "Open Sans", sans-serif; // font used for h1-h6 tags
+$fontButton        : "Open Sans", sans-serif; // font used for buttons
+
+$fontSize          : 14px; // general font size
+
+$lineHeight        : 1.7; // general line height
+$headingLineHeight : 1.15; // h1-h6 tags line-height
+
+$fontWeight        : normal; // general font weight
+$headingWeight     : bold; // h1-h6 tags font weight
+
+$fontColor         : #3D3B38; // general font color
+$headingColor      : #3D3B38; // h1-h6 tags font color
+
+// Rounded corners
+$mainRadius        : 4px; // general border radius
+$formRadius        : 3px;
+
+$boxShadow         : 0 2px 7px 0 rgba(0, 0, 0, 0.08);
+
+// Responsive breakpoints
+$breakSmall        : 782px;
+$breakSmallMin     : 783px;
+$breakLarge        : 960px;
+$breakLargeMin     : 961px;

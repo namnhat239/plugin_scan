@@ -1,0 +1,37 @@
+.wp-block-table[class*=is-style-tw-border-h] table {
+	border: 0;
+	border-color: var(--tw-block-border-color)
+}
+
+.wp-block-table[class*=is-style-tw-border-h] tr {
+	border: 0;
+	border-bottom: 1px solid;
+	border-color: inherit;
+}
+
+.wp-block-table.is-style-tw-border-h tr:first-child,
+.wp-block-table.is-style-tw-border-h-inner tfoot tr:first-child {
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+.wp-block-table.is-style-tw-border-h-inner :where(tbody,tfoot) tr:last-child {
+	border-bottom: 0;
+}
+
+.wp-block-table[class*=is-style-tw-border-h] tr :where(td,th):first-child {
+	padding-inline-start: 0;
+}
+
+.wp-block-table[class*=is-style-tw-border-h] tr :where(td,th):last-child {
+	padding-inline-end: 0;
+}
+
+.wp-block-table[class*=is-style-tw-border-h] tr :is(td,th) {
+	border: 0;
+	background: transparent;
+}
+
+.wp-block-table.tw-row-valign-top :where(td,th) {
+	vertical-align: top;
+}

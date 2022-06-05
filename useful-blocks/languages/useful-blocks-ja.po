@@ -1,0 +1,626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Useful Blocks\n"
+"POT-Creation-Date: 2021-01-16 15:48+0900\n"
+"PO-Revision-Date: 2021-01-16 15:48+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: useful-blocks.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _poedit;__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: inc/update\n"
+"X-Poedit-SearchPathExcluded-4: src/**icon.js\n"
+
+#: src/blocks/bar-graph-item/_controls.js:27
+msgid "Graph Color"
+msgstr "グラフの色"
+
+#: src/blocks/bar-graph-item/_controls.js:41
+msgid "you can choose the color of the graph as you like."
+msgstr "グラフの色を好きに選択できます。"
+
+#: src/blocks/bar-graph-item/_controls.js:75
+msgid "Lighten the color"
+msgstr "色を薄く表示する"
+
+#: src/blocks/bar-graph-item/_controls.js:83
+msgid "Percentage of graph"
+msgstr "グラフの割合"
+
+#: src/blocks/bar-graph-item/index.js:33
+#: src/blocks/rating-graph-item/index.js:53 class/Menu/Tab_Colors.php:425
+msgid "Graph"
+msgstr "グラフ"
+
+#: src/blocks/bar-graph-item/index.js:65 src/blocks/bar-graph-item/index.js:74
+#: src/blocks/bar-graph/index.js:57 src/blocks/cv-box-note/index.js:66
+#: src/blocks/list/index.js:81
+msgid "Text…"
+msgstr "テキスト…"
+
+#: src/blocks/bar-graph/_controls.js:45
+msgid "Left justified"
+msgstr "左寄せ"
+
+#: src/blocks/bar-graph/_controls.js:46
+msgid "Right justified"
+msgstr "右寄せ"
+
+#: src/blocks/bar-graph/_controls.js:51
+msgid "Top"
+msgstr "上部"
+
+#: src/blocks/bar-graph/_controls.js:52
+msgid "Inner"
+msgstr "内部"
+
+#: src/blocks/bar-graph/_controls.js:63 src/blocks/compare-box/_controls.js:69
+#: src/blocks/cv-box/_sidebar.js:66 src/blocks/iconbox/_controls.js:52
+#: src/blocks/rating-graph/_sidebar.js:52 class/Admin_Menu.php:43
+msgid "Color set"
+msgstr "カラーセット"
+
+#: src/blocks/bar-graph/_controls.js:94
+msgid "Title settings"
+msgstr "タイトル設定"
+
+#: src/blocks/bar-graph/_controls.js:96
+msgid "Don't show"
+msgstr "表示しない"
+
+#: src/blocks/bar-graph/_controls.js:104
+msgid "Add a border below"
+msgstr "下にボーダーをつける"
+
+#: src/blocks/bar-graph/_controls.js:115
+msgid "Graph settings"
+msgstr "グラフ設定"
+
+#: src/blocks/bar-graph/_controls.js:117
+msgid "Add background color"
+msgstr "背景色をつける"
+
+#: src/blocks/bar-graph/_controls.js:123
+msgid "you can make more detailed settings."
+msgstr "より細かな設定が可能です。"
+
+#: src/blocks/bar-graph/_controls.js:125
+msgid "Color the right side of the graph"
+msgstr "グラフ右側に色を付ける"
+
+#: src/blocks/bar-graph/_controls.js:133
+msgid "The position of the label on the left"
+msgstr "左側のラベルの位置"
+
+#: src/blocks/bar-graph/_controls.js:153
+msgid "The position of the label on the right"
+msgstr "右側のラベルの位置"
+
+#: src/blocks/bar-graph/index.js:33 class/Menu/Tab_Colors.php:389
+msgid "Bar Graph"
+msgstr "棒グラフ"
+
+#: src/blocks/button/_sidebar.js:108
+msgid "Link settings"
+msgstr "リンク設定"
+
+#: src/blocks/button/_sidebar.js:111
+msgid "Button settings"
+msgstr "ボタン設定"
+
+#: src/blocks/button/_sidebar.js:115
+msgid "Left side of button"
+msgstr "ボタンの左側"
+
+#: src/blocks/button/_sidebar.js:124
+msgid "Text"
+msgstr "テキスト"
+
+#: src/blocks/button/_sidebar.js:134
+#: src/blocks/rating-graph-item/_sidebar.js:32 class/Menu/Tab_Colors.php:341
+msgid "Icon"
+msgstr "アイコン"
+
+#: src/blocks/button/_sidebar.js:153 src/blocks/button/_sidebar.js:169
+#: src/blocks/cv-box-note/_sidebar.js:88 src/blocks/list/_sidebar.js:91
+msgid "you can choose from several types of icons."
+msgstr "アイコンを数種類の中から選択できます。"
+
+#: src/blocks/button/_sidebar.js:166
+msgid "Icon displayed on the right edge of the button"
+msgstr "ボタンの右端に表示するアイコン"
+
+#: src/blocks/button/_sidebar.js:175
+msgid "Round button"
+msgstr "ボタンを丸くする"
+
+#: src/blocks/button/_sidebar.js:184
+msgid "Display text link below button"
+msgstr "ボタン下にテキストリンクを表示"
+
+#: src/blocks/button/_sidebar.js:192 src/blocks/button/index.js:75
+msgid "Link to : "
+msgstr "リンク先 : "
+
+#: src/blocks/button/_sidebar.js:202
+msgid "Text link settings"
+msgstr "テキストリンク設定"
+
+#: src/blocks/button/_sidebar.js:207
+msgid "Text before URL"
+msgstr "URL前のテキスト"
+
+#: src/blocks/button/_sidebar.js:215
+msgid "URL text to display"
+msgstr "表示するURLテキスト"
+
+#: src/blocks/button/_toolbar.js:31
+msgid "Link"
+msgstr ""
+
+#: src/blocks/button/components/LinkControls.js:29
+msgid "URL"
+msgstr ""
+
+#: src/blocks/button/components/LinkControls.js:42
+msgid "Open in new tab"
+msgstr ""
+
+#: src/blocks/button/components/LinkControls.js:74
+msgid "Link rel"
+msgstr ""
+
+#: src/blocks/button/components/LinkControls.js:88
+msgid "Img tag for measurement"
+msgstr "計測用imgタグ"
+
+#: src/blocks/button/index.js:40
+msgid "CV Botton"
+msgstr "CV ボタン"
+
+#: src/blocks/button/index.js:64
+msgid "必見"
+msgstr ""
+
+#: src/blocks/button/index.js:176
+msgid "Button text…"
+msgstr "ボタンテキスト…"
+
+#: src/blocks/compare-box/_controls.js:34
+msgid "Removal of content restrictions"
+msgstr "コンテンツ制限の解除"
+
+#: src/blocks/compare-box/_controls.js:37
+msgid "you can place free contents other than the list."
+msgstr "リスト以外にも自由なコンテンツを配置できるようになります。"
+
+#: src/blocks/compare-box/_controls.js:40
+msgid "Allow blocks to be placed freely."
+msgstr "ブロックを自由に配置できるようにする。"
+
+#: src/blocks/compare-box/index.js:26 class/Menu/Tab_Colors.php:214
+msgid "Comparison box"
+msgstr "比較ボックス"
+
+#: src/blocks/compare-box/index.js:77 src/blocks/compare-box/index.js:84
+#: src/blocks/iconbox/index.js:106 src/blocks/iconbox/index.js:159
+msgid "…"
+msgstr "…"
+
+#: src/blocks/compare-box/index.js:124
+msgid "Comparison area"
+msgstr "比較エリア"
+
+#: src/blocks/compare-box/index.js:167
+msgid "Comparison content"
+msgstr "比較コンテンツ"
+
+#: src/blocks/cv-box-note/_sidebar.js:44
+msgid "Style settings"
+msgstr "スタイル設定"
+
+#: src/blocks/cv-box-note/_sidebar.js:85 src/blocks/list/_sidebar.js:88
+msgid "Icon settings"
+msgstr "アイコン設定"
+
+#: src/blocks/cv-box-note/_sidebar.js:109
+msgid "None"
+msgstr "なし"
+
+#: src/blocks/cv-box-note/index.js:32
+msgid "CV Text"
+msgstr "CV テキスト"
+
+#: src/blocks/cv-box/_sidebar.js:26
+msgid "Background style"
+msgstr "背景のスタイル"
+
+#: src/blocks/cv-box/index.js:32 class/Menu/Tab_Colors.php:127
+msgid "CV Box"
+msgstr "CV ボックス"
+
+#: src/blocks/freePreview.js:17
+msgid "In the Pro version,"
+msgstr "Pro版では、"
+
+#: src/blocks/iconbox/_controls.js:41 class/Menu/Tab_Colors.php:251
+msgid "Left"
+msgstr "左"
+
+#: src/blocks/iconbox/_controls.js:42 class/Menu/Tab_Colors.php:253
+msgid "Right"
+msgstr "右"
+
+#: src/blocks/iconbox/_controls.js:43
+msgid "Top left"
+msgstr "左上"
+
+#: src/blocks/iconbox/_controls.js:44
+msgid "Top right"
+msgstr "右上"
+
+#: src/blocks/iconbox/_controls.js:88
+msgid "Icon set"
+msgstr "アイコンセット"
+
+#: src/blocks/iconbox/_controls.js:92
+msgid "you can register 4 types of icons and call them easily."
+msgstr "4種類のアイコンを登録して簡単に呼び出すことができます。"
+
+#: src/blocks/iconbox/_controls.js:140
+msgid "Clear"
+msgstr "クリア"
+
+#: src/blocks/iconbox/_controls.js:148
+msgid "Icon position"
+msgstr "アイコンの位置"
+
+#: src/blocks/iconbox/_controls.js:150
+msgid "you can change the placement of the icons."
+msgstr "アイコンの配置を変更できるようになります。"
+
+#: src/blocks/iconbox/_controls.js:177
+msgid "Move icon down"
+msgstr "アイコンを下にずらす"
+
+#: src/blocks/iconbox/_controls.js:189
+msgid "Align to top/bottom center"
+msgstr "上下中央に合わせる"
+
+#: src/blocks/iconbox/_controls.js:198
+msgid "Baloon style"
+msgstr "ふきだしスタイル"
+
+#: src/blocks/iconbox/_controls.js:201
+msgid "you can change the balloon style."
+msgstr "ふきだしスタイルを変更することができます。"
+
+#: src/blocks/iconbox/index.js:45 class/Menu/Tab_Colors.php:303
+msgid "Icon box"
+msgstr "アイコンボックス"
+
+#: src/blocks/iconbox/index.js:141
+msgid "Remove"
+msgstr "削除"
+
+#: src/blocks/image/_sidebar.js:44
+msgid "Image settings"
+msgstr "画像設定"
+
+#: src/blocks/image/_sidebar.js:55
+msgid "Image Size"
+msgstr "画像サイズ"
+
+#: src/blocks/image/_toolbar.js:34 class/Admin_Menu.php:114
+msgid "Delete image"
+msgstr "画像を削除"
+
+#: src/blocks/image/index.js:38
+msgid "CV Image"
+msgstr "CV 画像"
+
+#: src/blocks/image/index.js:119 src/blocks/image/index.js:120
+msgid "Edit image"
+msgstr ""
+
+#: src/blocks/list/_sidebar.js:77
+msgid "List settings"
+msgstr "リスト設定"
+
+#: src/blocks/list/_sidebar.js:79
+msgid "Add a dotted line below the list"
+msgstr "リストの下に点線をつける"
+
+#: src/blocks/list/_toolbar.js:18
+msgid "Convert to unordered list"
+msgstr ""
+
+#: src/blocks/list/_toolbar.js:27
+msgid "Convert to ordered list"
+msgstr ""
+
+#: src/blocks/list/index.js:45
+msgid "Useful List"
+msgstr "Usefulリスト"
+
+#: src/blocks/rating-graph-item/_sidebar.js:28
+msgid "Dot"
+msgstr "ドット"
+
+#: src/blocks/rating-graph-item/_sidebar.js:36
+msgid "Image"
+msgstr "画像"
+
+#: src/blocks/rating-graph-item/_sidebar.js:49
+msgid ""
+"You can specify the class name of the \"solid\" type <a>Font Awesome icon</"
+"a>."
+msgstr "“solid”タイプの<a>Font Awesomeアイコン</a>のクラス名を指定できます。"
+
+#: src/blocks/rating-graph-item/_sidebar.js:105
+msgid "Graph setting"
+msgstr "グラフ設定"
+
+#: src/blocks/rating-graph-item/_sidebar.js:108
+msgid "Position of active point"
+msgstr "アクティブポイントの位置"
+
+#: src/blocks/rating-graph-item/_sidebar.js:113
+msgid "you can set the number of steps in the graph."
+msgstr "グラフの段階数を設定できます。"
+
+#: src/blocks/rating-graph-item/_sidebar.js:117
+msgid "Number of steps in the graph"
+msgstr "グラフの段階数"
+
+#: src/blocks/rating-graph-item/_sidebar.js:126
+msgid "3 stages"
+msgstr "3段階"
+
+#: src/blocks/rating-graph-item/_sidebar.js:134
+msgid "5 stages"
+msgstr "5段階"
+
+#: src/blocks/rating-graph-item/_sidebar.js:139
+msgid "you can use icons and images."
+msgstr "アイコンや画像を利用することができます。"
+
+#: src/blocks/rating-graph-item/_sidebar.js:141
+msgid "Active point shape"
+msgstr "アクティブポイントの形状"
+
+#: src/blocks/rating-graph-item/_sidebar.js:151
+msgid "Icon class"
+msgstr "アイコンクラス"
+
+#: src/blocks/rating-graph-item/_sidebar.js:180
+msgid "Change media"
+msgstr ""
+
+#: src/blocks/rating-graph-item/_sidebar.js:181
+msgid "Select media"
+msgstr "画像を選択"
+
+#: src/blocks/rating-graph-item/_sidebar.js:194
+msgid "Delete"
+msgstr "削除"
+
+#: src/blocks/rating-graph-item/index.js:158
+msgid "Graph Label"
+msgstr "グラフのラベル"
+
+#: src/blocks/rating-graph-item/index.js:168
+#: src/blocks/rating-graph-item/index.js:178
+msgid "Label…"
+msgstr "ラベル…"
+
+#: src/blocks/rating-graph/index.js:40 class/Menu/Tab_Colors.php:541
+msgid "Rating Graph"
+msgstr "評価グラフ"
+
+#: src/js/admin_menu.js:33 class/Init.php:247
+msgid "Failed."
+msgstr "失敗しました。"
+
+#: src/js/admin_menu.js:47
+msgid "Do you really want to reset it?"
+msgstr "本当にリセットしますか？"
+
+#: class/Admin_Menu.php:44
+msgid "Icon image"
+msgstr "アイコン画像"
+
+#: class/Admin_Menu.php:45 inc/admin_menu/reset.php:6
+msgid "Reset"
+msgstr "リセット"
+
+#. Plugin Name of the plugin/theme
+#: class/Admin_Menu.php:59 class/Admin_Menu.php:60 class/Init.php:61
+msgid "Useful Blocks"
+msgstr "Useful Blocks"
+
+#: class/Admin_Menu.php:113
+msgid "Select image"
+msgstr "画像を選択"
+
+#: class/Init.php:48
+msgid "Go Pro"
+msgstr "プロ版へ"
+
+#: class/Init.php:244
+msgid "Succeeded."
+msgstr "成功しました。"
+
+#: class/Menu/Tab_Colors.php:19
+msgid "Common color set"
+msgstr "共通カラーセット"
+
+#: class/Menu/Tab_Colors.php:21
+msgid "Color set common to each block."
+msgstr "各ブロックに共通したカラーセットです。"
+
+#: class/Menu/Tab_Colors.php:35
+msgid "Yellow"
+msgstr "イエロー"
+
+#: class/Menu/Tab_Colors.php:36
+msgid "Pink"
+msgstr "ピンク"
+
+#: class/Menu/Tab_Colors.php:37
+msgid "Green"
+msgstr "グリーン"
+
+#: class/Menu/Tab_Colors.php:38
+msgid "Blue"
+msgstr "ブルー"
+
+#: class/Menu/Tab_Colors.php:65
+msgctxt "color"
+msgid "Base"
+msgstr "基本"
+
+#: class/Menu/Tab_Colors.php:76 class/Menu/Tab_Colors.php:164
+#: class/Menu/Tab_Colors.php:340 class/Menu/Tab_Colors.php:426
+#: class/Menu/Tab_Colors.php:579
+msgctxt "color"
+msgid "Background"
+msgstr "背景"
+
+#: class/Menu/Tab_Colors.php:87 class/Menu/Tab_Colors.php:167
+msgctxt "color"
+msgid "Shadow"
+msgstr "影"
+
+#: class/Menu/Tab_Colors.php:165
+msgctxt "color"
+msgid "Icons"
+msgstr "アイコン"
+
+#: class/Menu/Tab_Colors.php:166
+msgctxt "color"
+msgid "Button"
+msgstr "ボタン"
+
+#: class/Menu/Tab_Colors.php:168
+msgctxt "color"
+msgid "Border"
+msgstr "線"
+
+#: class/Menu/Tab_Colors.php:339
+msgid "Head"
+msgstr "ヘッド"
+
+#: class/Menu/Tab_Colors.php:580
+msgctxt "color"
+msgid "Label"
+msgstr "ラベル"
+
+#: class/Menu/Tab_Colors.php:581
+msgctxt "color"
+msgid "Point"
+msgstr "ポイント"
+
+#: class/Menu/Tab_Icons.php:19
+msgid "Icon image for \"Icon box\" block"
+msgstr "「アイコンボックス」ブロック用のアイコン画像"
+
+#: inc/admin_menu.php:8
+msgid "Your settings have been saved."
+msgstr "設定を保存しました。"
+
+#: inc/admin_menu.php:11
+msgctxt "lang_slug"
+msgid "en"
+msgstr "ja"
+
+#: inc/admin_menu.php:42
+#, php-format
+msgid "Only the %s can actually save the settings."
+msgstr "実際に設定が保存できるのは%sのみです。"
+
+#: inc/admin_menu.php:43
+msgid "Pro version"
+msgstr "Pro版"
+
+#: inc/admin_menu.php:46
+msgid "In the free version, you can check the usability of the setting page."
+msgstr "無料版では、設定ページの使い勝手を確認できます。"
+
+#: inc/admin_menu/reset.php:3
+msgid "Reset settings"
+msgstr "設定をリセットする"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://ponhiro.com/useful-blocks/"
+msgstr "https://ponhiro.com/useful-blocks/"
+
+#. Description of the plugin/theme
+msgid "It is a plugin that collects very convenient blocks."
+msgstr "痒いところに手がとどく、便利なブロックを集めたプラグインです。"
+
+#. Author of the plugin/theme
+msgid "Ponhiro, Ryo"
+msgstr "ぽんひろ & 了"
+
+#~ msgid "In the pro version, you can place your favorite image here."
+#~ msgstr "プロ版では、ここに好きな画像を配置できます。"
+
+#, fuzzy
+#~| msgid "Color set"
+#~ msgid "Color Set"
+#~ msgstr "カラーセット"
+
+#~ msgid "Vertical position of icon"
+#~ msgstr "アイコンの上下位置"
+
+#~ msgid "With additional add-ons,"
+#~ msgstr "追加アドオンを使えば、"
+
+#~ msgctxt "color"
+#~ msgid "Basic"
+#~ msgstr "ベース色"
+
+#~ msgctxt "color"
+#~ msgid "Thin"
+#~ msgstr "薄い色"
+
+#~ msgctxt "color"
+#~ msgid "Dark"
+#~ msgstr "濃い色"
+
+#~ msgid "了"
+#~ msgstr "了"
+
+#~ msgid "https://twitter.com/ddryo_loos"
+#~ msgstr "https://twitter.com/ddryo_loos"
+
+#~ msgid "https://swell-theme.com/"
+#~ msgstr "https://swell-theme.com/"
+
+#~ msgid "With PRO features,"
+#~ msgstr "プロ版の機能を使うと、"
+
+#~ msgid "Useful Blocks [PRO]"
+#~ msgstr "Useful Blocks [PRO]"
+
+#~ msgid "PBリスト"
+#~ msgstr "PBリスト"
+
+#~ msgid "CVボックス"
+#~ msgstr "CV BOX"

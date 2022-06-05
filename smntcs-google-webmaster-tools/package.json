@@ -1,0 +1,33 @@
+{
+	"name": "smntcs-google-webmaster-tools",
+	"description": "Adds the verification code of Google Search Console, former Google Webmaster Tools, to your site.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Google Webmaster Tools"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-google-webmaster-tools#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-google-webmaster-tools.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-google-webmaster-tools/issues"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^4.1",
+		"cypress": "^9.1"
+	},
+	"scripts": {
+		"phpcbf": "composer phpcbf",
+		"phpcs": "composer phpcs",
+		"phplint": "composer phplint",
+		"psalm": "composer psalm --no-cache",
+		"test:e2e": "cypress run --headless --browser chrome",
+		"test:e2e-dev": "cypress open",
+		"wp-env": "wp-env",
+		"wp-env:rc": "wp-env run cli 'wp core update --version=6.0-RC1 && wp core update --version=6.0-RC1 --force'"
+	}
+}

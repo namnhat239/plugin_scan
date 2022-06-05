@@ -1,0 +1,20 @@
+{
+  "name": "ags-divi-icons-blocks",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start"
+  },
+  "author": "Aspen Grove Studios",
+  "license": "GNU General Public License version 3",
+  "dependencies": {
+    "@webpack-cli/init": "^1.1.3",
+    "@wordpress/scripts": "^14.0.1"
+  }
+}

@@ -1,0 +1,310 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeZee Toolkit\n"
+"Report-Msgid-Bugs-To: https://themezee.com/\n"
+"POT-Creation-Date: 2020-03-02 16:42+0100\n"
+"PO-Revision-Date: 2016-03-17 11:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: ThemeZee <support@themezee.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/class-themezee-plugins-page.php:41
+#: includes/admin/class-themezee-plugins-page.php:42
+#: includes/admin/class-themezee-plugins-page.php:108
+#: includes/admin/class-themezee-plugins-page.php:113
+msgid "ThemeZee Plugins"
+msgstr ""
+
+#: includes/admin/class-themezee-plugins-page.php:108
+msgid "plugins"
+msgstr ""
+
+#: includes/admin/class-themezee-plugins-page.php:115
+#, php-format
+msgid ""
+"You need more features and functionality? Extend your website with our "
+"premium %s."
+msgstr ""
+
+#: includes/admin/class-themezee-plugins-page.php:138
+msgid "Overview"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:337
+msgid "To infinity and beyond"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:346
+msgid ""
+"We&rsquo;ve changed this option to a click-to-scroll version for you since "
+"you have footer widgets in Appearance &rarr; Widgets, or your theme uses "
+"click-to-scroll as the default behavior."
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:352
+msgid "Scroll Infinitely"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:352
+#, php-format
+msgid "(Shows %s posts on each load)"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:727
+msgid "Older posts"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:744
+#, php-format
+msgid "Older %s"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:761
+msgid "Scroll back to top"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:1445
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: includes/modules/class-tztk-infinite-scroll.php:1448
+#, php-format
+msgid "Theme: %1$s."
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:69
+msgid "All category pages"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:83
+msgid "Logged In"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:84
+msgid "Logged Out"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:89
+msgid "All author pages"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:109
+msgid "All tag pages"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:123
+msgid "All date archives"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:124
+msgid "Daily archives"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:125
+msgid "Monthly archives"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:126
+msgid "Yearly archives"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:137
+msgid "Front page"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:138
+msgid "Posts page"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:139
+msgid "Archive page"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:140
+msgid "404 error page"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:141
+msgid "Search results"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:142
+msgid "Post type:"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:155
+msgid "Static page:"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:166
+msgid "All taxonomy pages"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:181
+msgid ":"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:230
+msgctxt "Checkbox on Widget Visibility if choosen page has children."
+msgid "Include children"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:266
+msgid "Visibility"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:269
+#, php-format
+msgctxt ""
+"placeholder: dropdown menu to select widget visibility; hide if or show if"
+msgid "%s if:"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:269
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Show"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:269
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Hide"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:280
+msgctxt "Used as the default option in a dropdown list"
+msgid "-- Select --"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:281
+msgid "Category"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:282
+msgctxt "Noun, as in: \"The author of this post is...\""
+msgid "Author"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:285
+msgctxt "Noun"
+msgid "User"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:286
+msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
+msgid "Role"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:289
+msgctxt "Noun, as in: \"This post has one tag.\""
+msgid "Tag"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:290
+msgctxt "Noun, as in: \"This page is a date archive.\""
+msgid "Date"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:291
+msgctxt "Example: The user is looking at a page, not a post."
+msgid "Page"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:294
+msgctxt "Noun, as in: \"This post has one taxonomy.\""
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:298
+msgctxt ""
+"Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
+msgid "is"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:300
+msgid "Loading..."
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:310
+msgctxt "Shown between widget visibility conditions."
+msgid "or"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:312
+msgid "Delete"
+msgstr ""
+
+#: includes/modules/class-tztk-widget-visibility.php:312
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-tztk-settings-page.php:41
+msgid "Toolkit"
+msgstr ""
+
+#: includes/settings/class-tztk-settings-page.php:57
+msgid "ThemeZee Toolkit"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:109
+msgid "Modules"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:148
+msgid "Activate all the modules you want to use."
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:213
+msgid "Widget Visibility"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:214
+msgid ""
+"Add \"Visibility\" tab to widget settings to set conditions where the widget "
+"should be displayed"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:220
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:221
+msgid ""
+"Add support for infinite scrolling on the blog homepage and automatically "
+"load new posts on the same page"
+msgstr ""
+
+#: includes/settings/class-tztk-settings.php:258
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+
+#: themezee-toolkit.php:151
+msgid "Settings"
+msgstr ""
+
+#: themezee-toolkit.php:168
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: themezee-toolkit.php:172
+msgid "Plugin Settings"
+msgstr ""
+
+#: themezee-toolkit.php:173
+msgid "View Documentation"
+msgstr ""

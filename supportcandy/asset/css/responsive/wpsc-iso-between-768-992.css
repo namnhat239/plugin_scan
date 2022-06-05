@@ -1,0 +1,28 @@
+
+/* @media (min-width: 768px) and (max-width: 991px) */
+
+.wpsc-iso .visible-sm {
+  display: block !important;
+}
+.wpsc-iso table.visible-sm {
+  display: table;
+}
+.wpsc-iso tr.visible-sm {
+  display: table-row !important;
+}
+.wpsc-iso th.visible-sm,
+.wpsc-iso td.visible-sm {
+  display: table-cell !important;
+}
+.wpsc-iso .visible-sm-block {
+  display: block !important;
+}
+.wpsc-iso .visible-sm-inline {
+  display: inline !important;
+}
+.wpsc-iso .visible-sm-inline-block {
+  display: inline-block !important;
+}
+.wpsc-iso .hidden-sm {
+  display: none !important;
+}

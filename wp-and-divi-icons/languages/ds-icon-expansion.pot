@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP and Divi Icons PRO\n"
+"POT-Creation-Date: 2021-02-11 17:45+0100\n"
+"PO-Revision-Date: 2021-02-11 17:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: Divi Space\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:57
+msgid "Support"
+msgstr ""
+
+#: admin/admin.php:62
+msgid "Performance"
+msgstr ""
+
+#: admin/admin.php:64 admin/admin.php:188
+msgid "Multi-Color Icons"
+msgstr ""
+
+#: admin/admin.php:66
+msgid "About & Instructions"
+msgstr ""
+
+#: admin/admin.php:67
+msgid "License Key"
+msgstr ""
+
+#: admin/admin.php:146
+msgid "Choose Icon Set(s) to Load"
+msgstr ""
+
+#: admin/admin.php:148
+msgid ""
+"You must select at least one icon set to load. Your previous selections have "
+"been restored."
+msgstr ""
+
+#: admin/admin.php:151
+msgid ""
+"You can uncheck icon sets that you do not wish to load. This can help "
+"improve page builder performance by not including icons sets you do not use "
+"on your site."
+msgstr ""
+
+#: admin/admin.php:158
+msgid "Font Awesome Icon Pack"
+msgstr ""
+
+#: admin/admin.php:160
+msgid "Multi-Color Icon Pack"
+msgstr ""
+
+#: admin/admin.php:162
+msgid "Material Design Icon Pack"
+msgstr ""
+
+#: admin/admin.php:164
+msgid "100 Universal Icon Pack"
+msgstr ""
+
+#: admin/admin.php:166
+msgid "300+ Free Outline Icon Pack"
+msgstr ""
+
+#: admin/admin.php:168
+msgid "Non Profit Icon Pack"
+msgstr ""
+
+#: admin/admin.php:170
+msgid "Cleaning Service Icon Pack"
+msgstr ""
+
+#: admin/admin.php:175
+msgid "Enable legacy icon set loading"
+msgstr ""
+
+#: admin/admin.php:178
+msgid ""
+"If you have added icons to your site using WP and Divi Icons Pro v1.2.0 or "
+"earlier while one or more of the above icon sets were disabled, you may "
+"experience missing or altered icons if this setting is not enabled. If this "
+"setting is enabled, changing which icon sets are enabled above may cause "
+"existing icons in site content to be altered or go missing in some cases; we "
+"recommend checking your existing icons if you are enabling or disabling icon "
+"sets (you may want to enable or disable one set at a time to see if this "
+"issue occurs when enabling/disabling a specific icon set). Changing this "
+"setting may also cause similar issues if not all icon sets are currently "
+"enabled."
+msgstr ""
+
+#: admin/admin.php:182 admin/admin.php:282
+msgid "Save"
+msgstr ""
+
+#: admin/admin.php:259
+msgid "The color schemes were not saved due to validation error(s)."
+msgstr ""
+
+#: admin/admin.php:262
+msgid "No color schemes are currently defined."
+msgstr ""
+
+#: admin/admin.php:274 js/admin.js:49
+msgid "Remove"
+msgstr ""
+
+#: admin/admin.php:281
+msgid "Add Color Scheme"
+msgstr ""
+
+#: admin/admin.php:287
+msgid ""
+"The maximum number of supported color schemes is 10 (if you had more than 10 "
+"color schemes in a previous version of the plugin, they should continue to "
+"work).\n"
+"\t\t\t\t\t\tPlease reduce your number of color schemes to less than 10 if "
+"you would like to add another color scheme."
+msgstr ""
+
+#: admin/admin.php:290
+msgid ""
+"Newly added color schemes will appear at or near the end of the icons list. "
+"Color schemes that were created in older versions of the plugin may appear "
+"closer to\n"
+"\t\t\t\t\t\tthe start of the list."
+msgstr ""
+
+#: admin/admin.php:299 wp-and-divi-icons.php:209
+msgid "Instructions"
+msgstr ""
+
+#: admin/admin.php:301
+#, php-format
+msgid ""
+"Easily insert one of the 2600+ icons provided by %s when using the WordPress "
+"visual editor to create and edit posts, pages, and other content! Simply "
+"click on the %s icon in the editor's toolbar to open the icon insertion "
+"window."
+msgstr ""
+
+#: admin/admin.php:307
+#, php-format
+msgid ""
+"If you use the %sDivi or Extra theme%s or the %sDivi Builder%s, you can also "
+"use the 2600+ icons provided by %s anywhere that the Divi Builder allows you "
+"to specify an icon, such as in Buttons, Blurbs, and much more! Works in both "
+"the Divi Builder and the Visual Builder."
+msgstr ""
+
+#: admin/admin.php:318
+msgid "Check out these products too!"
+msgstr ""
+
+#: admin/admin.php:338
+msgid ""
+"Divi is a registered trademark of Elegant Themes, Inc. This product is not "
+"affiliated with nor endorsed by Elegant Themes. Links to the Elegant Themes "
+"website on this page are affiliate links."
+msgstr ""
+
+#: js/admin.js:422 js/tinymce-plugin.js:210 wp-and-divi-icons.php:815
+msgid "Search icons..."
+msgstr ""
+
+#: js/tinymce-plugin.js:229
+msgid "Loading icons..."
+msgstr ""
+
+#: js/tinymce-plugin.js:363
+msgid "Preview"
+msgstr ""
+
+#: js/tinymce-plugin.js:643 js/tinymce-plugin.js:725
+msgid "Insert Icon"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:211
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:398
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:398
+msgid "Error"
+msgstr ""
+
+#: updater/license-key-activation.php:27 updater/license-key-activation.php:74
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: updater/license-key-activation.php:41
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: updater/license-key-activation.php:48
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: updater/license-key-activation.php:53
+msgid "Invalid license key."
+msgstr ""
+
+#: updater/license-key-activation.php:59
+msgid "Your license key is not active for this URL."
+msgstr ""
+
+#: updater/license-key-activation.php:64
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: updater/license-key-activation.php:69
+msgid ""
+"Your license key has reached its activation limit. Please deactivate the key "
+"on one of your other sites before activating it on this site."
+msgstr ""
+
+#: updater/license-key-activation.php:126
+#, php-format
+msgid ""
+"An error occurred during license key deactivation: %s. Please try again or "
+"%scontact support%s."
+msgstr ""
+
+#: updater/license-key-activation.php:133
+#, php-format
+msgid ""
+"An error occurred during license key deactivation. Please try again or "
+"%scontact support%s."
+msgstr ""
+
+#: updater/license-key-activation.php:146
+msgid ""
+"An error occurred during license key deactivation (your license key may be "
+"expired). Your license key has been removed from this site, but it may not "
+"have been properly deactivated on our server."
+msgstr ""
+
+#: updater/updater.php:43 updater/updater.php:87
+msgid "An unknown error has occurred. Please try again."
+msgstr ""
+
+#: updater/updater.php:75
+#, php-format
+msgid "Thank you for purchasing %s!%s  Please enter your license key below."
+msgstr ""
+
+#: updater/updater.php:81 updater/updater.php:122
+msgid "License Key:"
+msgstr ""
+
+#: updater/updater.php:93
+msgid "Continue"
+msgstr ""
+
+#: updater/updater.php:131
+msgid "Deactivate License Key"
+msgstr ""
+
+#: vendor/phpColors/src/Mexitek/PHPColors/Color.php:45
+#: vendor/phpColors/src/Mexitek/PHPColors/Color.php:493
+msgid "HEX color needs to be 6 or 3 digits long"
+msgstr ""
+
+#: vendor/phpColors/src/Mexitek/PHPColors/Color.php:122
+msgid "Param was not an HSL array"
+msgstr ""
+
+#: vendor/phpColors/src/Mexitek/PHPColors/Color.php:193
+msgid "Param was not an RGB array"
+msgstr ""
+
+#: wp-and-divi-icons.php:209
+msgid "Activate License Key"
+msgstr ""
+
+#: wp-and-divi-icons.php:221
+#, php-format
+msgid ""
+"You haven't activated your %s license key yet. Please %sactivate your "
+"license key%s to use over 2600 icons in the WordPress editor and your Divi "
+"modules!"
+msgstr ""
+
+#: wp-and-divi-icons.php:494
+#, php-format
+msgid ""
+"You have selected a multi-color icon, which cannot be colorized in the "
+"editor. Instead, you can define color schemes for multi-color icons %shere%s."
+msgstr ""
+
+#: wp-and-divi-icons.php:498
+msgid ""
+"If you leave the color and/or size settings blank, the icon will derive its "
+"color and size from the surrounding text's color and size (based on the "
+"styling of the icon's parent element). This is not reflected in the icon "
+"preview."
+msgstr ""
+
+#: wp-and-divi-icons.php:568
+#, php-format
+msgid ""
+"%sSubscribe%s to Aspen Grove Studios emails for the latest news, updates, "
+"special offers, and more!"
+msgstr ""
+
+#: wp-and-divi-icons.php:571
+#, php-format
+msgid "Create an engaging testimonial section for your website with %s! "
+msgstr ""
+
+#: wp-and-divi-icons.php:575
+#, php-format
+msgid ""
+"%sSign up%s for emails from %sDivi Space%s to receive news, updates, special "
+"offers, and more!"
+msgstr ""
+
+#: wp-and-divi-icons.php:576
+#, php-format
+msgid ""
+"Get child themes, must-have Divi plugins & exclusive content with the %sDivi "
+"Space membership%s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:578
+#, php-format
+msgid ""
+"Take your Divi website to new heights with %s, the Swiss Army Knife for Divi!"
+msgstr ""
+
+#: wp-and-divi-icons.php:579
+#, php-format
+msgid "Get blog modules from the Extra theme in the Divi Builder with %s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:580
+#, php-format
+msgid ""
+"Create an impactful online presence for your online store with the %sdivi "
+"ecommerce child theme%s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:581
+#, php-format
+msgid ""
+"Showcase your business in a memorable & engaging way with the %sDivi "
+"Business Pro child theme%s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:584
+#, php-format
+msgid "Need a powerful sales reporting tool for WooCommerce? Check out %s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:587
+#, php-format
+msgid "Let your forum users upload images into their posts with %s!"
+msgstr ""
+
+#: wp-and-divi-icons.php:718
+#, php-format
+msgid ""
+"Thank you for installing the %s plugin by %s! %sClick%s for instructions to "
+"help you start using it."
+msgstr ""
+
+#: wp-and-divi-icons.php:741
+#, php-format
+msgid ""
+"Do you use the %s Donations for WooCommerce %s plugin? Please support our "
+"free plugin by %swriting a review%s and/or %smaking a donation%s! Thanks!"
+msgstr ""
+
+#: wp-and-divi-icons.php:818
+#, php-format
+msgid "With additional icons from %s by %s "
+msgstr ""
+
+#: wp-and-divi-icons.php:818
+#, php-format
+msgid "With free icons by %s by %s "
+msgstr ""

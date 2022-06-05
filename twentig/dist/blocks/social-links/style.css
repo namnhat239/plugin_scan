@@ -1,0 +1,12 @@
+.wp-block-social-links.tw-hover-none .wp-social-link:hover {
+	transform: none;
+}
+
+.wp-block-social-links.tw-hover-opacity .wp-social-link {
+	opacity: 0.8;
+}
+
+.wp-block-social-links.tw-hover-opacity .wp-social-link:hover {
+	transform: none;
+	opacity: 1;
+}

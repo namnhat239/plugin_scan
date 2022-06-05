@@ -1,0 +1,107 @@
+/*!etm exclude start */
+
+#ds_icon_expansion_license_key_form {
+  color                   : $fontColor;
+  font-family             : $fontGeneral;
+  font-weight             : $fontColor;
+  line-height             : $lineHeight;
+  font-size               : $fontSize;
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+
+  border                  : solid 1px #E0DFDF;
+  max-width               : 900px;
+  margin                  : 20px auto 30px;
+  background              : #FFF;
+
+  @media (min-width : 740px) {
+    display : flex;
+
+    #ds_icon_expansion_license_key_form_logo_container {
+      flex  : initial;
+      width : 200px;
+      }
+    #ds_icon_expansion_license_key_form_body {
+      flex : 1;
+      }
+    }
+
+  @media (min-width : 900px) {
+    #ds_icon_expansion_license_key_form_logo_container {
+      width : 300px;
+      }
+    }
+
+  #ds_icon_expansion_license_key_form_logo_container {
+    background-color : $dsMediumPurple;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+    padding          : 25px;
+
+    @media (min-width : 900px) {
+      min-height : 175px;
+      }
+
+    img {
+      height : 70px;
+      }
+    }
+
+  #ds_icon_expansion_license_key_form_body {
+    padding : 25px;
+
+    #ds_icon_expansion_license_key_form_title {
+      @include responsiveFontSize(24px, 23px, 20px);
+      font-weight   : bold;
+      color         : $dsMediumPurple;
+      margin-bottom : 15px;
+      line-height   : $headingLineHeight;
+      }
+    }
+
+  input[type=submit] {
+    padding : 10px 30px;
+    }
+
+  input[type="password"] {
+    width : 100%;
+    }
+
+  label {
+    span {
+      margin-bottom : 8px;
+      display       : block;
+      }
+    }
+
+  @media (min-width : 900px) {
+    label {
+      display : table;
+      width   : 100%;
+
+      & > * {
+        display : table-cell !important;
+        }
+
+      & > span {
+        width       : 100px;
+        text-align  : left;
+        font-weight : 700;
+        padding-top : 7px;
+        margin      : 0;
+        }
+      }
+    }
+
+  p.submit {
+    margin-top  : 15px;
+    padding-top : 0;
+    }
+  }
+
+#ds_icon_expansion_license_key_form_error {
+  @include notificationMixin("error");
+  }
+
+/*!etm exclude end */

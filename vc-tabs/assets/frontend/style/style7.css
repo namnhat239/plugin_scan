@@ -1,0 +1,60 @@
+.oxi-tabs-ultimate-template-7 .oxi-tabs-header-li:last-of-type{
+    border-right: none !important;
+    border-bottom: none !important;
+}  
+@media only screen and (min-width: 994px) {
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal .oxi-tabs-header-li{
+        border-bottom: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 993px) {
+    .oxi-tabs-ultimate-template-7.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-compact .oxi-tabs-header-li{
+        border-bottom: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li{
+        border-bottom: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+    .oxi-tabs-ultimate-template-7.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-compact .oxi-tabs-header-li{
+        border-bottom: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-li{
+        border-bottom: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+    .oxi-tabs-ultimate-template-7.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-li{
+        border-right: none !important;
+    }
+}

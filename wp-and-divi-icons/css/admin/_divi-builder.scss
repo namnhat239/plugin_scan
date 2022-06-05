@@ -1,0 +1,171 @@
+/* Hide null icons */
+
+.et-db #et-boc .et-l .et-fb-font-icon-list li[data-icon*="agsdix-null"] {
+  display : none !important;
+  }
+
+/* Divi Builder Icon Picker Filter Dropdown - overwrite CSS */
+
+.et-db #et-boc .et-l .et-fb-tabs__panel--filter-dropdown .et-fb-font-icon-filter .et-fb-options-filter-dropdown-wrap #et-fb-icon-options-filter,
+.et-db #et-boc .et-l .et-fb-tabs__panel--filter-dropdown .et-fb-font-icon-filter .et-fb-options-filter-dropdown-wrap #et-fb-expanded-icon-options-filter {
+  min-width : 240px !important;
+  }
+
+.et-db #et-boc .et-l .et-fb-tabs__panel--filter-dropdown #et-fb-icon-options-filter.et-fb-settings-custom-select-wrapper .et-fb-settings-option-select-advanced {
+  position : relative !important;
+  left     : -70px !important;
+  }
+
+.et-db #et-boc .et-l .et-fb-option-container .et-fb-font-icon-list {
+  li[data-icon*="agsdix-mcip-"] {
+    width : 70px;
+    }
+
+  li[data-icon*="agsdix-mcip-"] svg {
+    padding : 0;
+    }
+
+  li[data-icon*="agsdix-mcip-uni"] svg,
+  li[data-icon*="agsdix-mcip-ske"] svg {
+    padding : 5px;
+    }
+
+  li[data-icon*="agsdix-mcip-out"] svg,
+  li[data-icon*="agsdix-mcip-ele"] svg,
+  li[data-icon*="agsdix-mcip-fil"] svg {
+    padding : 10px;
+    }
+
+  li.active[data-icon*="agsdix-mcip-"] {
+    box-shadow : 0 1px 1px 0 #c7c7c7;
+    background : #e9e9e9
+    }
+
+  li[data-icon*="agsdix-mcip-"] {
+    box-shadow : 0 1px 5px rgba(0, 0, 0, 0.18);
+    }
+  }
+
+/* expanded icon picker */
+
+.et-db #et-boc .et-l .et-fb-tooltip-modal--expanded_icon_picker {
+
+  .et-fb-expanded-icon-picker-modal-body {
+    .et-fb-font-icon-list {
+      li[data-icon*="agsdix-mcip-"] {
+        padding   : 0 !important;
+        min-width : 70px;
+        }
+
+      li[data-icon*="agsdix-mcip-"] svg {
+        cursor : default;
+        }
+      }
+    }
+
+  .et-fb-font-icon-list {
+    li[data-icon*="agsdix-mcip-"] svg {
+      margin : 10px;
+      }
+
+    li[data-icon*="agsdix-mcip-uni"] svg,
+    li[data-icon*="agsdix-mcip-ske"] svg {
+      margin : 15px;
+      }
+
+    li[data-icon*="agsdix-mcip-out"] svg,
+    li[data-icon*="agsdix-mcip-ele"] svg,
+    li[data-icon*="agsdix-mcip-fil"] svg {
+      padding : 0;
+      margin  : 20px;
+      }
+    }
+  }
+
+.et-db #et-boc .et-l .et-fb-font-icon-list li.active[data-icon*="agsdix-mcip-"],
+.et-db #et-boc .et-l .et-fb-tooltip-modal--expanded_icon_picker .et-fb-expanded-icon-picker-modal-body .et-fb-font-icon-list li.active[data-icon*="agsdix-mcip-"] {
+  box-shadow : 0 1px 1px 0 #c7c7c7;
+  background : none repeat scroll 0 0 #e9e9e9
+  }
+
+.et-fb-font-icon-list li[data-icon*="agsdix-mcip-"] svg .wadip-secondary-color {
+  fill : #2b87da;
+  }
+
+.et-fb-font-icon-list li[data-icon*="agsdix-mcip-"] svg .wadip-tertiary-color {
+  fill : #dde4eb;
+  }
+
+/* icon pack */
+
+.et-fb-option--multiple-buttons li.et-fb-multiple-buttons-toggle[data-option_value*="agdix"] {
+  min-width      : 180px !important;
+  padding-bottom : 10px;
+  }
+
+.et-fb-option--multiple-buttons li.et-fb-multiple-buttons-toggle[data-option_value*="agdix"] span {
+  min-height : 50px;
+  }
+
+/* END: Divi Builder Icon Picker Filter Dropdown - overwrite CSS */
+
+/* divi builder */
+
+.et-db #et-boc .et-l .et-fb-option--WadipETBuilderControlMultipleButtons {
+  svg {
+    width     : 100%;
+    height    : 100%;
+    max-width : 150px;
+    }
+
+  .et-fb-multiple-buttons-outer {
+    max-height : 280px;
+    overflow-y : scroll;
+    border     : 1px solid #f1f5f9;
+    padding    : 10px 5px;
+
+    .et-fb-multiple-buttons-container {
+      margin-right          : 0px;
+      display               : grid;
+      gap                   : 5px;
+      grid-template-columns : repeat(auto-fit, minmax(150px, 1fr));
+
+      li.et-fb-multiple-buttons-toggle {
+        margin : 0;
+
+        &:last-child {
+          flex-grow : 0;
+          }
+
+        span {
+          background : #f1f5f9;
+          padding    : 9px 25px;
+          min-height : 70px
+          }
+
+        .et-fb-multiple-buttons-toggle-internal {
+          border : 3px solid #f1f5f9;
+          }
+
+        .et-fb-multiple-buttons-toggle-internal__active {
+          border-color : #2b96e1;
+          }
+        }
+
+      }
+    }
+  }
+
+// warning field
+.et-db #et-boc .et-l .et-fb-option--warning .wadip-promo-field {
+  border  : 1px solid #4c586642;
+  padding : 15px;
+
+  p {
+    color : #4c5866;
+    }
+
+  a {
+    color : #2b87da;
+    }
+  }

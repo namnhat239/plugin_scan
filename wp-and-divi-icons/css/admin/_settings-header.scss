@@ -1,0 +1,73 @@
+/* Settings Header */
+
+#ds_icon_expansion-settings-header {
+  background      : $dsMediumPurple;
+  position        : relative;
+  padding         : 16px 23px;
+  justify-content : space-between;
+  display         : flex;
+  flex-wrap       : wrap;
+  align-items     : center;
+
+  .ds_icon_expansion-settings-logo {
+    img {
+      display        : inline-block;
+      vertical-align : middle;
+      margin-right   : 10px;
+      width          : 35px;
+      }
+
+    h1 {
+      margin         : 0;
+      color          : #FFF;
+      font-size      : 20px;
+      font-weight    : 600;
+      display        : inline-block;
+      vertical-align : middle;
+      }
+    }
+
+  @media (max-width : 660px) {
+    justify-content : center;
+
+    .ds_icon_expansion-settings-logo {
+      width      : 100%;
+      margin     : 0 auto 8px;
+      text-align : center;
+      }
+
+    #ds_icon_expansion-header-links {
+      text-align : center;
+      }
+    }
+  }
+
+#ds_icon_expansion-settings-header-links a {
+  text-decoration     : none;
+  color               : #FFFFFF;
+  font-size           : 14px;
+  opacity             : 0.54;
+  font-weight         : 600;
+  margin-left         : 20px;
+  padding             : 8px 16px 8px 30px;
+  display             : inline-block;
+  border-radius       : 4px;
+  background-size     : 28px;
+  background-repeat   : no-repeat;
+  background-position : left center;
+  box-shadow          : none;
+
+  &:hover {
+    opacity : 1;
+    color   : #FFF;
+    }
+  }
+
+#ds_icon_expansion-settings-header-link-settings {
+  background-image : url(../images/settings.svg);
+  display          : none !important;
+  }
+
+#ds_icon_expansion-settings-header-link-support {
+  background-image : url(../images/help.svg);
+  }

@@ -1,0 +1,24 @@
+.wp-block-pullquote {
+	line-height: 1.6;
+	font-size: 1.75em;
+}
+
+.wp-block-pullquote.has-background {
+	padding: min(40px,6.5vw);
+}
+
+.wp-block-pullquote blockquote {
+	margin: 0;
+}
+
+.wp-block-pullquote p {
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 1.5rem;
+}
+
+.wp-block-pullquote .wp-block-pullquote__citation {
+	line-height: 1.3;
+	display: block;
+	text-transform: none;
+}

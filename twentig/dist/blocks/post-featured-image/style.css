@@ -1,0 +1,52 @@
+.wp-block-post-featured-image[class*=tw-img-ratio] {
+	position: relative;
+	width: 100%;
+}
+
+.wp-block-post-featured-image[class*=tw-img-ratio] img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.wp-block-post-featured-image[class*=tw-img-ratio]::before {
+	content: "";
+	display: block;
+	width: 100%;
+	padding-bottom: var(--block-img-ratio, 56.25%);
+}
+
+.wp-block-post-featured-image[class*=tw-img-ratio] a {
+	display: block;
+}
+
+.wp-block-post-featured-image.is-style-tw-rounded-corners,
+.wp-block-post-featured-image.is-style-tw-rounded-corners img {
+	border-radius: var(--tw-block-rounded);
+}
+
+.wp-block-post-featured-image.is-style-rounded,
+.wp-block-post-featured-image.is-style-rounded img {
+	border-radius: 9999px;
+}
+
+.wp-block-post-featured-image.is-style-tw-shadow {
+	box-shadow: var(--tw-block-shadow);
+}
+
+.wp-block-post-featured-image.is-style-tw-border {
+	border: 1px solid var(--tw-block-border-color);
+}
+
+.wp-block-post-featured-image.is-style-tw-hard-shadow {
+	border: var(--tw--block-hard-shadow-border);
+	box-shadow: var(--tw--block-hard-shadow);
+}
+
+/* fix for stack */
+.is-flex-container .wp-block-post-featured-image {
+	width: 100%;
+}

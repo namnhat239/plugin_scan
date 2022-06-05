@@ -1,0 +1,19 @@
+.oxi-tabs-ultimate-template-13 .oxi-tabs-ultimate-header{
+    overflow: visible;
+}
+@media only screen and (min-width: 769px) and (max-width: 993px) {
+     .oxi-tabs-ultimate-template-13.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-13.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-13.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li{
+        width: auto;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .oxi-tabs-ultimate-template-13.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-13.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-13.oxi-tab-header-vertical.oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li{
+        width: auto;
+        max-width: 100%;
+    }
+}

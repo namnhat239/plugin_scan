@@ -1,0 +1,209 @@
+/*
+WP and Divi Icons by Divi Space, an Aspen Grove Studios company
+Licensed under the GNU General Public License v3 (see ../license.txt)
+
+This plugin includes code based on parts of the Divi theme and/or the
+Divi Builder by Elegant Themes, licensed GPLv2, (see ../license.txt).
+*/
+
+.et_pb_module .et_pb_button[data-icon^="agsdix-"]:after,
+.et_pb_module .et_pb_button[data-icon^="agsdix-"]:before {
+    content: '';
+}
+
+.et-pb-icon:not([data-icon]):not(.agsdi-loaded), .et-pb-icon:not([data-icon]):not(.agsdi-loaded) {
+    display : none !important;
+}
+
+*[data-icon^="agsdix-smc-"]:before,
+*[data-icon^="agsdix-smc-"]:after {
+    display:inline-block;
+}
+
+
+*[data-icon^="agsdix-smc-"]:before,
+.et_pb_button[data-icon^="agsdix-smc-"]:before,
+.et_pb_button[data-icon^="agsdix-smc-"]:after,
+.et_pb_inline_icon[data-icon^="agsdix-smc-"]:after,
+.et-fb-font-icon-list li[data-icon^="agsdix-smc-"]:after {
+    content     : "." !important;
+    width       : 1em;
+    font-size   : 1em;
+    line-height : inherit;
+}
+
+.mce-i-agsdi:before {
+    content               : "1";
+    font-family: "wadi-admin";
+    color: #F060E1;
+}
+
+body .et_font_icon li {
+    font-size : 32px !important;
+}
+
+.et-pb-option-container .et_font_icon {
+    width : 530px;
+}
+
+
+
+
+
+/* Hide content when icon is null */
+*[data-icon^="agsdix-null"]:after,
+*[data-icon^="agsdix-null"]:before {
+    content : none !important;
+}
+
+body:not(.agsdi-no-css) *[data-icon^="agsdix-smc-"]:before,
+body:not(.agsdi-no-css) .et_pb_button[data-icon^="agsdix-smc-"]:after,
+body:not(.agsdi-no-css) .et_pb_inline_icon[data-icon^="agsdix-smc-"]:after,
+body:not(.agsdi-no-css) .et-fb-font-icon-list li[data-icon^="agsdix-smc-"]:after {
+    mask-size           : 52em;
+    -webkit-mask-size   : 52em;
+    mask-repeat         : no-repeat;
+    -webkit-mask-repeat : no-repeat;
+    background-color    : currentColor;
+}
+
+
+body:not(.agsdi-no-css) *[data-icon^="agsdix-saf"]:before,
+body:not(.agsdi-no-css) .et_pb_button[data-icon^="agsdix-saf"]:after,
+body:not(.agsdi-no-css) .et_pb_inline_icon[data-icon^="agsdix-saf"]:after,
+body:not(.agsdi-no-css) .et-fb-font-icon-list li[data-icon^="agsdix-saf"]:after {
+    mask-image         : url(../icon-packs/ags-universal/multicolor/filled.svg);
+    -webkit-mask-image : url(../icon-packs/ags-universal/multicolor/filled.svg);
+    mask-mode          : luminance;
+}
+
+body *[data-icon^="agsdix-smc"]:before,
+body .et_pb_button[data-icon^="agsdix-smc"]:after,
+body .et_pb_inline_icon[data-icon^="agsdix-smc"]:after,
+body .et-fb-font-icon-list li[data-icon^="agsdix-smc"]:after {
+    background-size   : 52em;
+    background-repeat : no-repeat;
+    color             : rgba(0, 0, 0, 0) !important;
+}
+
+
+.agsdi-no-css *[data-icon^="agsdi-"]:before,
+.agsdi-no-css .et_pb_button[data-icon^="agsdi-"]:after,
+.agsdi-no-css .et_pb_inline_icon[data-icon^="agsdi-"]:after,
+.agsdi-no-css *[data-icon^="agsdix-s"]:not([data-icon^="agsdix-smc"]):before,
+.agsdi-no-css .et_pb_button[data-icon^="agsdix-s"]:not([data-icon^="agsdix-smc"]):after,
+.agsdi-no-css .et_pb_inline_icon[data-icon^="agsdix-s"]:not([data-icon^="agsdix-smc"]):after {
+    background-repeat   : no-repeat !important;
+    background-position : center !important;
+    background-size     : 1em !important;
+}
+
+
+body.agsdi-no-css .agsdi-nocss-icon:before,
+.et_pb_button.agsdi-nocss-icon:after,
+body.agsdi-no-css .et_pb_inline_icon.agsdi-nocss-icon:after {
+    color : rgba(0, 0, 0, 0) !important;
+}
+
+.agsdi-icon {
+    display     : inline-block;
+    width       : 1em;
+    height      : 1em;
+    line-height : 1em;
+    overflow    : hidden;
+    box-sizing  : border-box;
+}
+
+.agsdi-icon:before {
+    display     : inline-block;
+}
+
+#agsdi-color-schemes > * {
+    clear : left;
+}
+
+#agsdi-color-schemes > [data-colors-id] {
+}
+
+#agsdi-color-schemes > [data-colors-id] > * {
+    float         : left;
+    margin-bottom : 20px;
+}
+
+.agsdi-color-preview {
+    font-size        : 100px;
+    background-color : #FFF;
+    max-height       : 2em;
+    overflow-y       : auto;
+    margin-bottom    : 10px !important;
+    border           : 1px solid #E6E5E5;
+    border-radius    : 4px;
+    line-height      : 1;
+    padding          : 10px;
+    display          : flex;
+    flex-flow        : row wrap;
+    justify-content  : space-between;
+}
+
+.agsdi-color-preview::after {
+    content : "";
+    flex    : auto;
+}
+
+.agsdi-color-preview div {
+    display : inline-block;
+}
+
+.agsdi-color-preview div:before {
+    display : inline-block;
+    height  : 1em;
+    color   : rgba(0, 0, 0, 0) !important;
+}
+
+
+body.et-bfb .et-fb-modal input.agsdi-picker-search-divi-fb,
+body.et-db .et-fb-modal input.agsdi-picker-search-divi-fb,
+body.et-db .et-fb-modal input.agsdi-picker-search-divi-fb.agsdi-color-preview,
+input.agsdi-picker-search-divi-fb {
+    margin:10px 0px 20px 0px;
+}
+
+body.et-bfb .et-fb-modal input.agsdi-picker-search-divi-fb::placeholder,
+body.et-db .et-fb-modal input.agsdi-picker-search-divi-fb::placeholder,
+body.et-db .et-fb-modal input.agsdi-picker-search-divi-fb.agsdi-color-preview::placeholder,
+input.agsdi-picker-search-divi-fb::placeholder {
+    color: #32373c !important;
+}
+
+
+/* Scrollbar */
+
+#agsdi-color-schemes ::-webkit-scrollbar {
+    /* total width */
+    width            : 8px;
+    background-color : #E6E5E5;
+}
+
+#agsdi-color-schemes ::-webkit-scrollbar-track {
+    /* background of the scrollbar except button or resizer */
+    background-color : #E6E5E5;
+}
+
+#agsdi-color-schemes ::-webkit-scrollbar-track:hover {
+    background-color : #CFCECE;
+}
+
+#agsdi-color-schemes ::-webkit-scrollbar-thumb {
+    /* scrollbar itself */
+    background-color : #6A61E6;
+    border-radius    : 16px;
+}
+
+#agsdi-color-schemes ::-webkit-scrollbar-thumb:hover {
+    background-color : #340F96;
+}
+
+#agsdi-color-schemes ::-webkit-scrollbar-button {
+    /* set button(top and bottom of the scrollbar) */
+    display : none;
+}

@@ -1,0 +1,68 @@
+/** Pagination **/
+
+.agsdi-picker-pagination {
+  margin-top      : 10px;
+  display         : flex;
+  justify-content : center;
+  flex-wrap       : wrap;
+
+  & > * {
+    height      : 30px;
+    line-height : 30px;
+    padding     : 0 10px;
+    color       : #4C5866;
+    font-weight : bold;
+    font-size   : 15px;
+    min-width   : 30px;
+    text-align  : center;
+    }
+
+  a {
+    text-decoration : none !important;
+    }
+  }
+
+.agsdi-picker-pagination-next,
+.agsdi-picker-pagination-prev,
+.agsdi-picker-pagination-number {
+  border-radius : 3px;
+  margin        : 3px;
+  background    : #F1F5F9;
+
+  &:hover {
+    color      : #FFF;
+    background : #4C5866;
+    }
+  }
+
+.agsdi-picker-pagination-current,
+.agsdi-picker-pagination-current:hover {
+  color      : #FFF;
+  background : #2B87DA;
+  }
+
+.agsdi-picker-pagination-next,
+.agsdi-picker-pagination-prev {
+  position  : relative;
+  font-size : 0;
+
+  &:before {
+    position    : absolute;
+    top         : 50%;
+    left        : 50%;
+    transform   : translate(-50%, -50%);
+    font-size   : 20px;
+    font-family : ETmodules;
+    }
+  }
+
+.agsdi-picker-pagination-next:before {
+  content : "5";
+  }
+
+.agsdi-picker-pagination-prev:before {
+  content : "4"
+  }
+
+.agsdi-picker-pagination-ellipsis {
+  }

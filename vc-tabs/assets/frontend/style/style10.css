@@ -1,0 +1,209 @@
+.oxi-tabs-ultimate-template-10 .oxi-tabs-ultimate-header{
+    overflow: visible;
+    max-width: 100%;
+}
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-li{
+    position: relative;
+    max-width: 100%;
+}
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-li .oxi-icons,
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-li .oxi-tabs-header-li-image,
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-li .oxi-tabs-header-li-number,
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-li .oxi-tabs-header-li-title{
+  z-index: 111;
+}
+.oxi-tabs-ultimate-template-10 .oxi-tabs-header-triangle-shape{
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 994px) {
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class^='oxi-tab-header-top-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class*=' oxi-tab-header-top-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class^='oxi-tab-header-bottom-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class*=' oxi-tab-header-bottom-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'] .oxi-tabs-header-li{
+        border-right: none !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'] .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'] .oxi-tabs-header-li{
+        border-left: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class^='oxi-tab-header-top-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class*=' oxi-tab-header-top-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class^='oxi-tab-header-bottom-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal[class*=' oxi-tab-header-bottom-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'] .oxi-tabs-header-triangle-shape{
+        transform: rotate(45deg);
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        left: auto !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'] .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'] .oxi-tabs-header-triangle-shape{
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        right: auto !important;
+        transform: rotate(-45deg);
+    }
+
+
+
+
+}
+@media only screen and (min-width: 769px) and (max-width: 993px) {
+
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li{
+        width: auto;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-li{
+        max-width: 100%;
+        border-right: none !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-li{
+        border-left: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-tabs-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-horizontal.oxi-tabs-header-vertical-tabs-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape{
+        transform: rotate(45deg);
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        left: auto !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-tabs-alignment-vertical .oxi-tabs-header-triangle-shape{
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        right: auto !important;
+        transform: rotate(-45deg);
+    }
+
+
+}
+@media only screen and (max-width: 768px) {
+
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li{
+        width: auto;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-li{
+        max-width: 100%;
+        border-right: none !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-li,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-li{
+        border-left: none !important;
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tabs-heading-responsive-dynamic .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-horizontal.oxi-tabs-heading-responsive-static.oxi-tabs-header-horizontal-mobile-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-left-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-compact .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-horizontal .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-horizontal.oxi-tabs-header-vertical-mobile-alignment-horizontal-vertical .oxi-tabs-header-triangle-shape{
+        transform: rotate(45deg);
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        left: auto !important;
+    }
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class^='oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-triangle-shape,
+    .oxi-tabs-ultimate-template-10.oxi-tab-header-vertical[class*=' oxi-tab-header-right-'].oxi-tabs-heading-responsive-static.oxi-tabs-header-vertical-mobile-alignment-vertical .oxi-tabs-header-triangle-shape{
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        right: auto !important;
+        transform: rotate(-45deg);
+    }
+
+}

@@ -1,0 +1,1 @@
+.smb-list ul>li:before{border:2px solid var(--_color-text,#333);border-radius:100%;content:"";height:10px;left:-1.3em;overflow:hidden;position:absolute;top:8px;width:10px}.smb-list ul>li>.smb-list__icon{display:none}

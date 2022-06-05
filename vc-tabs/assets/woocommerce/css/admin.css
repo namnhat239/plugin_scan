@@ -1,0 +1,178 @@
+.woo-oxilab-tabs-admin-container,
+.woo-oxilab-tabs-admin-container * {
+    box-sizing: border-box;
+}
+.woo-oxilab-tabs-admin-container{
+    width: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-header{
+    padding: 10px 0px;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-header h3{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-header p{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-body{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(169 169 169);
+    background: #fff;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs{
+    width: 100%;
+    background-color: #e2e2e2;
+    border: 1px solid rgb(169 169 169);
+    margin-bottom: 20px;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .oxi-woo-header{
+    position: relative;
+    width: 100%;
+    color: #3a3a3a;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(169 169 169);
+    cursor: pointer;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .oxi-woo-header:hover{
+    background: #cecece;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs.oxi-hidden .oxi-woo-header{
+    border: none;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs.oxi-hidden .woo-oxi-content{
+    display: none;
+}
+
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .oxi-woo-header .oxi-delete-button{
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    background: #9c9c9c;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .oxi-woo-header .oxi-delete-button:after{
+    position: absolute;
+    content: "\f335";
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+}
+
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .oxi-woo-header .oxi-delete-button:hover{
+    background: #c1bfbf;
+}
+.woo-oxilab-tabs-admin-container .woo-oxilab-tabs-admin-tabs .woo-oxi-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.woo-oxilab-tabs-admin-container ._oxilab_tabs_woo_layouts_content_field{
+    width: 100%;
+    padding: 15px;
+}
+.woo-oxilab-tabs-admin-container .oxi-woo-tabs-add-rows{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.woo-oxilab-tabs-admin-container .oxi-woo-tabs-add-rows-button{
+    display: inline-block;
+    font-size: 16px;
+    background-color: black;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+}
+.woo-oxilab-tabs-admin-container .oxi-woo-tabs-add-rows-button:hover{
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+@-webkit-keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.woo-oxilab-tabs-admin-container .oxi-woo-tabs-add-rows-store{
+    display: none;
+}
+
+
+.oxi-addons-tabs-woo-extension p.form-field {
+    color: #555;
+        line-height: 24px;
+        font-size: 12px;
+        margin: 9px 0;
+    padding: 5px 20px 5px 162px!important;
+}
+
+
+.oxi-addons-tabs-woo-extension label{
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -150px;
+}
+.oxi-addons-tabs-woo-extension input[type=text] {
+    width: 50%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+        margin: 0;
+}

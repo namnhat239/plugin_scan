@@ -1,0 +1,31 @@
+#ds_icon_expansion-settings {
+  .ds_icon_expansion-settings-box {
+    position : relative;
+    padding  : 30px 0;
+
+    &:first-child {
+      padding-top : 0;
+      }
+
+    &:last-child {
+      padding-bottom : 0;
+      }
+
+    &.has-border-top {
+      border-top : 1px solid $middleBorderColor;
+      }
+
+    &.has-border-bottom {
+      border-bottom : 1px solid $middleBorderColor;
+      }
+
+    a {
+      font-weight : 500;
+      }
+    }
+
+  .ds_icon_expansion-settings-desc {
+    font-style : italic;
+    font-size  : 13px;
+    }
+  }

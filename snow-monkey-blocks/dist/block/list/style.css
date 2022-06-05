@@ -1,0 +1,1 @@
+.smb-list ul{list-style:none!important}.smb-list ul>li{position:relative}.smb-list ul>li+li{margin-top:.45rem;margin-top:calc(var(--_space, 1.8rem)*.25*var(--_margin-scale, 1))}.smb-list ul>li .smb-list__icon{left:-1.3em;line-height:1;position:absolute;top:6px}

@@ -1,0 +1,51 @@
+/*
+ * WP and Divi Icons by Divi Space, an Aspen Grove Studios company
+ * Licensed under the GNU General Public License v3 (see ../license.txt)
+ *
+ * This plugin includes code based on parts of the Divi theme and/or the
+ * Divi Builder by Elegant Themes, licensed GPLv2, (see ../license.txt).
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap");
+
+@import "admin/variables";
+@import "admin/mixins";
+
+@import "admin/base";
+@import "admin/forms";
+//!etm exclude start
+@import "admin/license-key";
+//!etm exclude end
+
+@import "admin/admin_notices";
+
+@import "admin/settings-header";
+@import "admin/settings-tabs";
+@import "admin/settings-content";
+@import "admin/settings-tab-multicolor-icons";
+@import "admin/settings-tab-performance";
+@import "admin/settings-tab-about";
+@import "admin/error-notice";
+
+@import "admin/divi-builder";
+
+@import "admin/icons";
+@import "admin/pagination";
+@import "admin/tinymce";
+@import "admin/gutenberg";
+
+
+/*!free include start*/
+/* Pro */
+span.ds_icon_expansion_pro {
+  font-size        : 11px;
+  font-weight      : 600;
+  color            : #FFF;
+  background-color : #4624B3;
+  padding          : 4px 7px;
+  border-radius    : 15px;
+  display          : inline;
+  line-height      : 1;
+  vertical-align   : super;
+  }
+/*!free include end*/

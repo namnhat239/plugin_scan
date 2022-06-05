@@ -1,0 +1,469 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP News and Scrolling Widgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-12 11:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.5"
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:31
+msgid "120+. In lite version only two design."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:152
+msgid "5 stars!"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:23
+msgid ""
+"6 (Grid, Slider, Carousel, List, Gridbox, GridBox Slider, News Ticker). In "
+"lite version only 1 layout."
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:39
+msgid "7. In lite version only two widget."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:69
+msgid ""
+"<b>Please make sure that Permalink link should not be \"/news\" Otherwise "
+"all your news will go to archive page. You can give it other name like "
+"\"/ournews, /latestnews etc\"</b>"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A simple News and three widgets(static, scrolling and with thumbs) plugin. "
+"Also work with Gutenberg shortcode block."
+msgstr ""
+
+#: includes/sp-news-post-type.php:64
+msgid "Add New Category"
+msgstr ""
+
+#: includes/sp-news-post-type.php:16
+msgid "Add New News Item"
+msgstr ""
+
+#: includes/sp-news-post-type.php:24
+msgctxt "admin menu"
+msgid "News"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:95
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:89
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:101
+msgid "All Categories"
+msgstr ""
+
+#: includes/sp-news-post-type.php:59
+msgid "All Category"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:77
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:63
+msgid "Arrange your desired slides with your desired order and display."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:137
+msgid "Boost Design"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:136
+msgid "Boost design and best solution for your website."
+msgstr ""
+
+#: includes/sp-news-post-type.php:66
+#: includes/widgets/class-wpnw-latest-news-widget.php:91
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:85
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:97
+msgid "Category"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:91
+msgid "Check Documentation"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:28
+msgid "Designs"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:87
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:81
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:93
+msgid "Display Category"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:82
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:76
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:88
+msgid "Display Date"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:81
+msgid "Display News in grid 1"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:82
+msgid "Display News in grid 2"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:83
+msgid "Display News in grid 3"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:27
+msgid "Displayed Latest News Items from the News  in a sidebar"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:22
+msgid "Displayed Latest News Items in a sidebar with thumbnails"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:79
+msgid ""
+"Do not display the news & Do not display the news for particular categories."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:88
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:60
+msgid "Drag & Drop Slide Order Change"
+msgstr ""
+
+#: includes/sp-news-post-type.php:62
+msgid "Edit Category"
+msgstr ""
+
+#: includes/sp-news-post-type.php:17
+msgid "Edit News Item"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:152
+msgid "Enjoyed this plugin? You can help by rate this plugin "
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:76
+msgid "Exclude News and Exclude Some Categories"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:193
+msgid ""
+"Gain access to <strong>WP News and Scrolling Widgets</strong> included in "
+"<br /><strong>Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:49
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:194
+msgid "Go Premium "
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:71
+msgid ""
+"Gutenberg Block, Elementor, Bevear Builder, SiteOrigin, Divi, Visual "
+"Composer and Fusion Page Builder Support"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:102
+msgid "Gutenberg Support"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:113
+msgid "Height"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:148
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:110
+msgid "How it Work"
+msgstr ""
+
+#: includes/admin/class-wpnw-admin.php:44
+#: includes/admin/wpnw-how-it-work.php:16
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:40
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/class-wpnw-admin.php:44
+msgid "How it works - WP News and Scrolling Widgets"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:64
+msgid "How Shortcode Works"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.essentialplugin.com/"
+msgstr ""
+
+#: sp-news-and-widget.php:158
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:34
+msgid "Latest News"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:31
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:35
+msgid "Latest News Scrolling Widget"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:30
+msgid "Latest News Widget"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:25
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:29
+msgid "Latest News with Thumb"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:20
+msgid "Layouts"
+msgstr ""
+
+#: includes/admin/class-wpnw-admin.php:77
+msgid "More Premium - Settings"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:128
+msgid "Need Support & Solutions?"
+msgstr ""
+
+#: includes/sp-news-post-type.php:65
+msgid "New Category Name"
+msgstr ""
+
+#: includes/sp-news-post-type.php:18
+msgid "New News Item"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:80
+msgid "News in List View"
+msgstr ""
+
+#: includes/functions.php:98 includes/shortcode/sp-news-shortcode.php:203
+msgid "Next"
+msgstr ""
+
+#: includes/sp-news-post-type.php:21
+msgid "No News Items found"
+msgstr ""
+
+#: includes/sp-news-post-type.php:22
+msgid "No News Items found in Trash"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:77
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:71
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:83
+msgid "Number of Items"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:68
+msgid "Page Builder Support"
+msgstr ""
+
+#: includes/sp-news-post-type.php:60
+msgid "Parent Category"
+msgstr ""
+
+#: includes/sp-news-post-type.php:61
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:118
+msgid "Pause"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:55
+msgid ""
+"Play with all shortcode parameters with preview panel. No documentation "
+"required."
+msgstr ""
+
+#: includes/functions.php:97 includes/shortcode/sp-news-shortcode.php:204
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:20
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:28
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:36
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:44
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:52
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:60
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:68
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:76
+msgid "PRO"
+msgstr ""
+
+#: includes/shortcode/sp-news-shortcode.php:185
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:28
+msgid "Scroll Latest News Items from the News  in a sidebar"
+msgstr ""
+
+#: includes/sp-news-post-type.php:20
+msgid "Search  News Items"
+msgstr ""
+
+#: includes/sp-news-post-type.php:58
+msgid "Search Category"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:52
+msgid "Shortcode Generator "
+msgstr ""
+
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:123
+msgid "Speed"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:68
+msgid "Step-1. Create a page like Our News OR Latest News."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:114
+msgid "Step-1. Go to the Gutenberg editor of your page."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:53
+msgid ""
+"Step-1: This plugin create a News menu tab in WordPress menu with custom "
+"post type."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:70
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:115
+msgid "Step-2. Search \"news\" keyword in the Gutenberg block list."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:54
+msgid "Step-2: Go to \"News > Add news item tab\"."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:116
+msgid ""
+"Step-3. Add any block of news and you will find its relative options on the "
+"right end side."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:55
+msgid ""
+"Step-3: Add news title, description, category, and image as featured image."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:56
+msgid "Step-4: Repeat this process and add multiple news item."
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:57
+msgid ""
+"Step-4: To display news category wise you can use category shortcode under "
+"\"News > News category\""
+msgstr ""
+
+#: sp-news-and-widget.php:157
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: includes/widgets/class-wpnw-latest-news-widget.php:73
+#: includes/widgets/class-wpnw-news-thumbnail-widget.php:67
+#: includes/widgets/class-wpnw-news-scrolling-widget.php:79
+msgid "Title"
+msgstr ""
+
+#: includes/sp-news-post-type.php:63
+msgid "Update Category"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:14
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\" target=\"_blank\">Pro Version</a> with Essential "
+"Plugin Bundle to boost your website design."
+msgstr ""
+
+#: includes/admin/class-wpnw-admin.php:47
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/class-wpnw-admin.php:47
+msgid "Upgrade to PRO - WP News and Scrolling Widgets"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:164
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/sp-news-post-type.php:19
+msgid "View News Item"
+msgstr ""
+
+#: includes/admin/wpnw-how-it-work.php:195
+msgid "View PRO Demo "
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:36
+msgid "Widgets"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP News and Scrolling Widgets"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "WP News and Scrolling Widgets with "
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:44
+msgid "WP Templating Features "
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:141
+msgid "WPOS Blocks"
+msgstr ""
+
+#: includes/admin/metabox/wpnw-post-setting-metabox-pro.php:47
+msgid "You can modify plugin html/designs in your current theme."
+msgstr ""

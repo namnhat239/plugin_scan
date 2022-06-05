@@ -1,0 +1,31 @@
+/* Multi Color Icon Tab */
+
+#ds_icon_expansion-settings-icons {
+  .wp-color-result {
+    border-color : #BBB;
+    }
+
+  [class^="ds_icon_button"] {
+    min-width    : 150px;
+    margin-right : 10px;
+    }
+
+  .agsdi-colors-remove {
+    border-color     : #F3B6BC !important;
+    background-color : #FAE6E8;
+    color            : #D0021B;
+    outline          : none !important;
+    font-weight      : 500;
+
+    &:hover {
+      color            : #FFF;
+      border-color     : #D0021B !important;
+      background-color : #D0021B;
+      }
+
+    }
+  }
+
+#agsdi-color-schemes-buttons {
+  margin-bottom : 15px;
+  }

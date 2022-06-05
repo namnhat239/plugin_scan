@@ -1,0 +1,315 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Slider and Carousel Plus Widget for Social Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 05:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: includes/admin/iscwp-how-it-work.php:164
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:22
+msgid "Any sort of WP work with no extra cost"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:132
+#: includes/admin/class-iscwp-admin.php:167
+msgid "Cache Cleared"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:177
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:134
+msgid "Check this box to enable image fit in image wrap"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:141
+msgid "Check this box to enable popup"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:148
+msgid "Check this box to enable popup gallery mode"
+msgstr ""
+
+#: includes/admin/settings/iscwp-settings.php:61
+msgid "Clear Cache"
+msgstr ""
+
+#: templates/popup/popup.php:3
+msgid "Close"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:23
+msgid "Dedicated expert working only for you!"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:179
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:31
+msgid "Display Instagram pictures in grid view."
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:187
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:178
+msgid "Documentation"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easy to display your instagram photo in Grid, slider, carousel and widget. "
+"Also work with Gutenberg shortcode block."
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:236
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr ""
+
+#: includes/admin/settings/iscwp-settings.php:40
+msgid "Flush Caches"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:47
+#: includes/admin/iscwp-how-it-work.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:221
+msgid "Go Premium "
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:102
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:233
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:18
+msgid "Highlight of Hiring:"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:20
+msgid "Hire once, get unlimited jobs done"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:53
+#: includes/admin/settings/hire-us.php:84
+#: includes/admin/settings/hire-us.php:85
+#: includes/admin/settings/hire-us.php:86
+#: includes/admin/settings/hire-us.php:87
+msgid "Hire Us"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:15
+msgid "Hire Us - Get Unlimited Expert WordPress Support and Development"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:104
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:144
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wponlinesupport.com/plugins/"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:133
+msgid "Image fit"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:114
+msgid "Image Wrap Height"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:44
+msgid "Insta Feed - WPOS"
+msgstr ""
+
+#: includes/admin/settings/iscwp-settings.php:15
+msgid "Insta Feed Settings"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:168
+msgid "Instagram Grid"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:32
+msgid "Instagram Grid - WPOS"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:126
+msgid "Instagram Redirect Link Text"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:167
+msgid "Instagram Slider"
+msgstr ""
+
+#: slider-carousel-plus-widget-for-instagram.php:150
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:174
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/settings/iscwp-settings.php:70
+msgid "No cache data found."
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:120
+msgid "Number of Items"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:108
+msgid "Offset - Padding for Image Wrap"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:107
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:140
+msgid "Popup"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:147
+msgid "Popup Gallery"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:188
+msgid "Premium Support"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:188
+msgid "Premium Support - For any Customization"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:21
+msgid "Quick ticket support, quick solution"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:154
+msgid "Show Caption"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:166
+msgid "Show Comments Count"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:160
+msgid "Show Likes Count"
+msgstr ""
+
+#. Name of the plugin
+msgid "Slider and Carousel Plus Widget for Social Media"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "Slider and Carousel Plus Widget Instagram - Features"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:169
+msgid "Sorry, no data found"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:115
+#: includes/admin/class-iscwp-admin.php:152
+msgid "Sorry, Something happened wrong."
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:156
+msgid ""
+"Step-1: This plugin create a Insta Feed - WPOS tab in WordPress menu section"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:157
+msgid ""
+"Step-2: Now, paste below shortcode in any post or page and your Instagram "
+"images listing is ready !!!"
+msgstr ""
+
+#: slider-carousel-plus-widget-for-instagram.php:149
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:89
+msgid ""
+"There was an error retrieving the data from the server. Please try again "
+"later."
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:90
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:50
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:50
+msgid "Upgrade to PRO - Insta Feed"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:197
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/widgets/class-instagram-grid-widget.php:96
+msgid "Username"
+msgstr ""
+
+#: includes/admin/class-iscwp-admin.php:187
+msgid "View Documentation"
+msgstr ""
+
+#: includes/shortcode/iscwp-grid.php:18 includes/shortcode/iscwp-grid.php:32
+#: includes/shortcode/iscwp-slider.php:17
+#: includes/widgets/class-instagram-grid-widget.php:39
+#: includes/widgets/class-instagram-grid-widget.php:73
+#: includes/widgets/class-instagram-grid-widget.php:188
+msgid "View On Instagram"
+msgstr ""
+
+#: includes/admin/iscwp-how-it-work.php:222
+msgid "View PRO Demo "
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
+
+#: includes/admin/settings/iscwp-settings.php:21
+msgid "Your changes saved successfully."
+msgstr ""

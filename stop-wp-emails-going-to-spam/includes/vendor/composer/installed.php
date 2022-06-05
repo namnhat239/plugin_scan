@@ -1,0 +1,67 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.0.5.x-dev',
+        'version' => '2.0.5.9999999-dev',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../../',
+        'aliases' => array(),
+        'reference' => 'b9dcf5f9dfb148ac3203c082f9ab035341fbab12',
+        'name' => 'fullworks/stop-wp-emails-going-to-spam',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'alanef/plugindonation_lib' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../alanef/plugindonation_lib',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '6fe8152ef59ef20616b2828a2b21db5e0b541f8c',
+            'dev_requirement' => false,
+        ),
+        'composer/installers' => array(
+            'pretty_version' => 'v1.0.12',
+            'version' => '1.0.12.0',
+            'type' => 'composer-installer',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'reference' => '4127333b03e8b4c08d081958548aae5419d1a2fa',
+            'dev_requirement' => false,
+        ),
+        'fullworks/stop-wp-emails-going-to-spam' => array(
+            'pretty_version' => '2.0.5.x-dev',
+            'version' => '2.0.5.9999999-dev',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../../',
+            'aliases' => array(),
+            'reference' => 'b9dcf5f9dfb148ac3203c082f9ab035341fbab12',
+            'dev_requirement' => false,
+        ),
+        'shama/baton' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.6.2',
+            'version' => '3.6.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => '5e4e71592f69da17871dba6e80dd51bce74a351a',
+            'dev_requirement' => false,
+        ),
+        'wp-coding-standards/wpcs' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../wp-coding-standards/wpcs',
+            'aliases' => array(),
+            'reference' => '7da1894633f168fe244afc6de00d141f27517b62',
+            'dev_requirement' => false,
+        ),
+    ),
+);
