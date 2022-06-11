@@ -1,1 +1,0 @@
-import 'tinymce/plugins/fullpage';
